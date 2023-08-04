@@ -8,13 +8,9 @@ public class FifthTask {
         byte color;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите номер цвета радуги: ");
-        while (true) {
-            if(!scanner.hasNextByte()) {
-                String str = scanner.nextLine();
-                System.out.println("Некорректный ввод");
-            } else {
-                break;
-            }
+        while (!scanner.hasNextByte()) {
+            String str = scanner.nextLine();
+            System.out.println("Некорректный ввод");
         }
         color = scanner.nextByte();
         switch(color) {
@@ -42,5 +38,6 @@ public class FifthTask {
             default:
                 System.out.println("Цвета с таким номером нет");
         }
+        scanner.close();
     }
 }
