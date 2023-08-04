@@ -30,5 +30,6 @@ public class FirstTask {
             default:
                 System.out.println("There is no month with that number");
         }
+        scanner.close();
     }
 }
