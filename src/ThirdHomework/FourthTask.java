@@ -18,5 +18,6 @@ public class FourthTask {
                 System.out.println("Холодно");
             }
         }
+        scanner.close();
     }
 }
