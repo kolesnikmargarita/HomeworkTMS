@@ -17,5 +17,6 @@ public class ThirdTask {
                 System.out.println("odd number");
             }
         }
+        scanner.close();
     }
 }
