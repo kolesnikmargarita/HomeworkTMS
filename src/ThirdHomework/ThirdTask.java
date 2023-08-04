@@ -11,7 +11,7 @@ public class ThirdTask {
         System.out.print("Enter number: ");
         if(scanner.hasNextInt()){
             number = scanner.nextInt();
-            if(number%2 == 0) {
+            if(number % 2 == 0) {
                 System.out.println("even number");
             } else {
                 System.out.println("odd number");
