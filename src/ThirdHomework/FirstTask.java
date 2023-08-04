@@ -9,7 +9,11 @@ public class FirstTask {
         int monthNumber;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter number of month: ");
-        monthNumber = scanner.nextInt();
+        if(scanner.hasNextInt()) {
+            monthNumber = scanner.nextInt();
+        } else {
+            monthNumber = 0;
+        }
         switch(monthNumber) {
             case 1, 2, 12:
                 System.out.println("Winter");
