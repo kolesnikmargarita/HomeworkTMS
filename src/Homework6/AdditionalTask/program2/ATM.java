@@ -33,9 +33,16 @@ public class ATM {
                 getFiftyDenominationBills = fiftyDenominationBills;
             }
             amount -= getFiftyDenominationBills * 50;
-            if(amount % 20 != 0 && getFiftyDenominationBills > 0) {
-                getFiftyDenominationBills--;
-                amount += 50;
+            if(amount % 20 != 0) {
+                if(getFiftyDenominationBills > 0) {
+                    getFiftyDenominationBills--;
+                    amount += 50;
+                } else if (getHundredDenominationBills > 0 && fiftyDenominationBills > 0) {
+                    getHundredDenominationBills--;
+                    getFiftyDenominationBills++;
+                    fiftyDenominationBills--;
+                    amount += 50;
+                }
             }
             getTwentyDenominationBills = (int) (amount / 20);
             if(getTwentyDenominationBills > twentyDenominationBills) {
