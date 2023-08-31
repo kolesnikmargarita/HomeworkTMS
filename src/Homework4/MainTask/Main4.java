@@ -12,16 +12,16 @@ public class Main4 {
         float avgOfSecondArr = 0;
         for(int i = 0; i < 5; i++) {
             firstArr[i] = minRandomNumber + (int) ((maxRandomNumber - minRandomNumber + 1) * Math.random());
+            avgOfFirstArr += firstArr[i];
             secondArr[i] = minRandomNumber + (int) ((maxRandomNumber - minRandomNumber + 1) * Math.random());
-        }
+            avgOfSecondArr += secondArr[i];
+        } //почему так быстрее, если два следующих цикла все равно надо создавать для вывода массивов (или заменить его на Arrays.toString(array);)?
         for(int i : firstArr) {
             System.out.print(i + " ");
-            avgOfFirstArr += i;
         }
         System.out.println();
         for(int i : secondArr) {
             System.out.print(i + " ");
-            avgOfSecondArr += i;
         }
         avgOfFirstArr /= 5;
         avgOfSecondArr /= 5;

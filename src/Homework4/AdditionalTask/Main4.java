@@ -11,7 +11,7 @@ public class Main4 {
         int[] evenArr;
         byte numberOfElementsInArr;
         byte numberOfElementsInEvenArr = 0;
-        int j = 0;
+        int indexEvenArr = 0;
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         System.out.print("Введите размер массивов из интервала (5; 10]: ");
@@ -26,7 +26,7 @@ public class Main4 {
             scanner.nextLine();
         } while(true);
         arr = new int[numberOfElementsInArr];
-        for(byte i = 0; i < numberOfElementsInArr; i++) {
+        for(int i = 0; i < numberOfElementsInArr; i++) {
             arr[i] = random.nextInt(20) - 10;
             if(arr[i] % 2 == 0) {
                 numberOfElementsInEvenArr++;
@@ -36,8 +36,8 @@ public class Main4 {
         for(int i : arr) {
             System.out.print(i + " ");
             if(i % 2 == 0) {
-                evenArr[j] = i;
-                j++;
+                evenArr[indexEvenArr] = i;
+                indexEvenArr++;
             }
         }
         System.out.println();
