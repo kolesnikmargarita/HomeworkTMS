@@ -11,6 +11,11 @@ public class Rectangle implements Figure {
     }
 
     @Override
+    public void displayFigureName() {
+        System.out.println("Прямоугольник");
+    }
+
+    @Override
     public double calculatePerimeter() {
         return 2 * firstSide + 2 * secondSide;
     }

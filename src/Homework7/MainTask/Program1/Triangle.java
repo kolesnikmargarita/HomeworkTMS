@@ -13,6 +13,11 @@ public class Triangle implements Figure {
     }
 
     @Override
+    public void displayFigureName() {
+        System.out.println("Треугольник");
+    }
+
+    @Override
     public double calculatePerimeter() {
         return firstSide + secondSide + thirdSide;
     }

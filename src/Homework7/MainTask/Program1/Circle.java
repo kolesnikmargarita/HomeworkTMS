@@ -9,6 +9,11 @@ public class Circle implements Figure {
     }
 
     @Override
+    public void displayFigureName() {
+        System.out.println("Круг");
+    }
+
+    @Override
     public double calculatePerimeter() {
         return 2 * Math.PI * radius;
     }
