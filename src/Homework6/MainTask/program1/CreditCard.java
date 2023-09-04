@@ -10,11 +10,11 @@ public class CreditCard {
         currentAccountBalance = setAccountBalance;
     }
 
-    public void addSum(float sum) {
+    public void increaseBalance(float sum) {
         currentAccountBalance += sum;
     }
 
-    public void subSum(float sum) {
+    public void shrinkBalance(float sum) {
         if(sum <= currentAccountBalance) {
             currentAccountBalance -= sum;
         } else {

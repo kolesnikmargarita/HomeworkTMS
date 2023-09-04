@@ -7,9 +7,9 @@ public class Program {
         CreditCard secondCreditCard = new CreditCard("BY7568347587436", 245.00f);
         CreditCard thirdCreditCard = new CreditCard("BY7568347587437", 85.97f);
 
-        firstCreditCard.addSum(87.00f);
-        secondCreditCard.addSum(55.76f);
-        thirdCreditCard.subSum(34.54f);
+        firstCreditCard.increaseBalance(87.00f);
+        secondCreditCard.increaseBalance(55.76f);
+        thirdCreditCard.shrinkBalance(34.54f);
 
         firstCreditCard.displayInformation();
         secondCreditCard.displayInformation();
