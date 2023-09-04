@@ -27,6 +27,24 @@ public class Main {
         document = new FinanceInvoice(43215, new Date(2022 - 1900, 12 - 1, 3),
                 543.4, 90778);
         register.saveDoc(document);
+        document = new EmployeeContract();
+        register.saveDoc(document);
+        document = new ContractSupplyGoods();
+        register.saveDoc(document);
+        document = new FinanceInvoice();
+        register.saveDoc(document);
+        document = new EmployeeContract();
+        register.saveDoc(document);
+        document = new ContractSupplyGoods();
+        register.saveDoc(document);
+        document = new FinanceInvoice();
+        register.saveDoc(document);
+        document = new EmployeeContract();
+        register.saveDoc(document);
+        document = new ContractSupplyGoods();
+        register.saveDoc(document);
+        document = new FinanceInvoice();
+        register.saveDoc(document);
         for(byte i = 0; i < register.getQuantityOfDocuments(); i++) {
             register.displayInfo(i);
         }
