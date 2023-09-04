@@ -1,4 +1,4 @@
-package Homework7.AdditionalTask;
+package Homework8.AdditionalTask;
 
 public class Main {
 
@@ -9,17 +9,17 @@ public class Main {
         if(doctor != null) {
             doctor.treat();
         }
-        patient.newTreatmentPlan((byte)1);
+        patient.setTreatmentPlan((byte)1);
         doctor = assignDoctor(patient.getTreatmentPlanCode());
         if(doctor != null) {
             doctor.treat();
         }
-        patient.newTreatmentPlan((byte)2);
+        patient.setTreatmentPlan((byte)2);
         doctor = assignDoctor(patient.getTreatmentPlanCode());
         if(doctor != null) {
             doctor.treat();
         }
-        patient.newTreatmentPlan((byte)(Math.random() * 10 + 3));
+        patient.setTreatmentPlan((byte)(Math.random() * 10 + 3));
         doctor = assignDoctor(patient.getTreatmentPlanCode());
         if(doctor != null) {
             doctor.treat();

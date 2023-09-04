@@ -1,4 +1,4 @@
-package Homework7.AdditionalTask;
+package Homework8.AdditionalTask;
 
 public interface Doctor {
 

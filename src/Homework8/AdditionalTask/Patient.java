@@ -1,4 +1,4 @@
-package Homework7.AdditionalTask;
+package Homework8.AdditionalTask;
 
 public class Patient {
 
@@ -16,7 +16,7 @@ public class Patient {
         }
     }
 
-    public void newTreatmentPlan(byte treatmentPlanCode) {
+    public void setTreatmentPlan(byte treatmentPlanCode) {
         treatmentPlan = new TreatmentPlan(treatmentPlanCode);
     }
 

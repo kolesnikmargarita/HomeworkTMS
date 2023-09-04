@@ -1,4 +1,4 @@
-package Homework7.MainTask;
+package Homework8.MainTask;
 
 public class Main {
 
