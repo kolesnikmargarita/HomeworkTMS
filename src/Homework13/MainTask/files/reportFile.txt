@@ -1,0 +1,14 @@
+rwjhfbkbGVHJew4 - Невалиден: номер документа должен начинаться с "docnum" или с "kontract"
+kontractFDGCC77 - Валиден
+docnumbjksbk4IH - Валиден
+docnumjsakkbcjj - Валиден
+akjurjdkhfkjnvkdjhv - Невалиден: номер документа должен иметь длину 15 символов;номер документа должен начинаться с "docnum" или с "kontract"
+docnumkd65rHYG7 - Валиден
+kontract746HG78 - Валиден
+jebjwbhjv7456ti - Невалиден: номер документа должен начинаться с "docnum" или с "kontract"
+numf7hr4iu8hf83 - Невалиден: номер документа должен начинаться с "docnum" или с "kontract"
+568GFTdocnumrju - Невалиден: номер документа должен начинаться с "docnum" или с "kontract"
+kontract - Невалиден: номер документа должен иметь длину 15 символов;
+nrkrhviubqhguihg58rihierhhn - Невалиден: номер документа должен иметь длину 15 символов;номер документа должен начинаться с "docnum" или с "kontract"
+kontrakt6475Fth - Невалиден: номер документа должен начинаться с "docnum" или с "kontract"
+Docnum - Невалиден: номер документа должен иметь длину 15 символов;номер документа должен начинаться с "docnum" или с "kontract"
