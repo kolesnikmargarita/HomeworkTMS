@@ -8,4 +8,6 @@ public class EleventhTask {
             System.out.println(i * i);
         }
     }
+
+
 }
