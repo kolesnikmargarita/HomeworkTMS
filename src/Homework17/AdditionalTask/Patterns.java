@@ -11,7 +11,6 @@ public enum Patterns {
             case PHONE_NUMBER -> Pattern.compile("\\+\\(\\d{2}\\)\\d{7}");
             case EMAIL -> Pattern.compile("[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}");
             case TXT_FILE -> Pattern.compile("^.+\\.txt$");//("^(([А-Яа-я0-9]|\\w)+\\s*)+\\.txt$");
-            default -> Pattern.compile("");
         };
     }
 }
