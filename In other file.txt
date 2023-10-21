@@ -1,0 +1,54 @@
+Root element :students
+
+student
+id="001"
+
+        
+CDATA section may use reserved characters like < > & "
+
+        Tom
+        male
+        
+    
+
+name
+Tom
+
+gender
+male
+
+newTeg
+
+
+student
+age="2"
+id="002"
+
+        Jerry
+        
+                
+                    moor
+                
+        
+        male
+        
+    
+
+name
+Jerry
+
+cat
+id="6574"
+
+                
+                    moor
+                
+        
+
+voice
+
+                    moor
+                
+
+gender
+male
