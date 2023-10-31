@@ -86,7 +86,7 @@ public class Main {
                     return result;
                 }
             }
-            scanner.hasNextLine();
+            scanner.nextLine();
             System.out.println("Error. Try again.");
         }
     }
